@@ -46,20 +46,38 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto ">
+           <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+          
+            <i class=" fa fa-search text-white"></i>
+          
+        </form>
           <li class="nav-item active">
             <a class="nav-link text-white " href="#"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link text-white" href="progress bar.html">Category</a>
+            <a class="nav-link text-white  dropdown-toggle" href="#dropdown" data-toggle="dropdown">Products</a>
+             <div class="dropdown-menu dropdown-menu-right" id="dropdown">
+      <ul>
+        <a class="dropdown-item" href="babyclothes.html">Baby Clothes</a>
+    <a class="dropdown-item" href="#">Toys</a>
+    <a class="dropdown-item" href="#">Accessories</a>
+
+    <a class="dropdown-item" href="#">Baby Clothes</a>
+    <a class="dropdown-item" href="#">Toys</a>
+    <a class="dropdown-item" href="#">Accessories</a>
+      </ul>
+    </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="login.html">Shopping</a>
-          </li>
+         
           <li class="nav-item">
             <a class="nav-link text-white" href="#"> About Us</a>
           </li>
@@ -69,19 +87,10 @@
             ></a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+       
       </div>
     </nav>
+   
     <section class="hero">
       <div class="hero-img">
         <div
